@@ -2,7 +2,16 @@ package entities;
 
 import java.util.Set;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class College {
+	
+		@Id
+		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private int collegeId;
 		private String collegeName;
 		private String collegeAddress;
@@ -40,6 +49,7 @@ public class College {
 			this.collegeAddress = collegeAddress;
 			this.students = students;
 		}
+		
 		public College() {
 			super();
 			// TODO Auto-generated constructor stub
