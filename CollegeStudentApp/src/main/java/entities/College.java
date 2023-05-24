@@ -3,9 +3,11 @@ package entities;
 import java.util.Set;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 
 @Entity
 public class College {
@@ -15,6 +17,7 @@ public class College {
 		private int collegeId;
 		private String collegeName;
 		private String collegeAddress;
+		@OneToMany(fetch = FetchType.EAGER, mappedBy = "college")
 		private Set<Student> students;
 		
 		public int getCollegeId() {
