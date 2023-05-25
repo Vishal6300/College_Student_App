@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestCases" time="9.694" tests="20" errors="0" skipped="0" failures="17">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vkdeo\OneDrive\Desktop\College_App\College_Student_App\CollegeStudentApp\target\test-classes;C:\Users\vkdeo\OneDrive\Desktop\College_App\College_Student_App\CollegeStudentApp\target\classes;C:\Users\vkdeo\.m2\repository\org\hibernate\orm\hibernate-core\6.1.6.Final\hibernate-core-6.1.6.Final.jar;C:\Users\vkdeo\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.0.0\jakarta.persistence-api-3.0.0.jar;C:\Users\vkdeo\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.0\jakarta.transaction-api-2.0.0.jar;C:\Users\vkdeo\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\vkdeo\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.2.Final\hibernate-commons-annotations-6.0.2.Final.jar;C:\Users\vkdeo\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\vkdeo\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\vkdeo\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\vkdeo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\3.0.1\jakarta.xml.bind-api-3.0.1.jar;C:\Users\vkdeo\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\vkdeo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\3.0.2\jaxb-runtime-3.0.2.jar;C:\Users\vkdeo\.m2\repository\org\glassfish\jaxb\jaxb-core\3.0.2\jaxb-core-3.0.2.jar;C:\Users\vkdeo\.m2\repository\org\glassfish\jaxb\txw2\3.0.2\txw2-3.0.2.jar;C:\Users\vkdeo\.m2\repository\com\sun\istack\istack-commons-runtime\4.0.1\istack-commons-runtime-4.0.1.jar;C:\Users\vkdeo\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.0\jakarta.inject-api-2.0.0.jar;C:\Users\vkdeo\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\vkdeo\.m2\repository\com\mysql\mysql-connector-j\8.0.31\mysql-connector-j-8.0.31.jar;C:\Users\vkdeo\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\vkdeo\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\vkdeo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\vkdeo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vkdeo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\vkdeo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vkdeo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\vkdeo\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\vkdeo\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\vkdeo\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;C:\Users\vkdeo\.m2\repository\org\json\json\20220924\json-20220924.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\vkdeo\Downloads\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\vkdeo\AppData\Local\Temp\surefire14147523928614409895\surefirebooter9292163954498022969.jar C:\Users\vkdeo\AppData\Local\Temp\surefire14147523928614409895 2023-05-25T09-49-28_748-jvmRun1 surefire11208649829163413537tmp surefire_013984762323384439210tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\vkdeo\OneDrive\Desktop\College_App\College_Student_App\CollegeStudentApp\target\test-classes;C:\Users\vkdeo\OneDrive\Desktop\College_App\College_Student_App\CollegeStudentApp\target\classes;C:\Users\vkdeo\.m2\repository\org\hibernate\orm\hibernate-core\6.1.6.Final\hibernate-core-6.1.6.Final.jar;C:\Users\vkdeo\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.0.0\jakarta.persistence-api-3.0.0.jar;C:\Users\vkdeo\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.0\jakarta.transaction-api-2.0.0.jar;C:\Users\vkdeo\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\vkdeo\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.2.Final\hibernate-commons-annotations-6.0.2.Final.jar;C:\Users\vkdeo\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\vkdeo\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\vkdeo\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\vkdeo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\3.0.1\jakarta.xml.bind-api-3.0.1.jar;C:\Users\vkdeo\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\vkdeo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\3.0.2\jaxb-runtime-3.0.2.jar;C:\Users\vkdeo\.m2\repository\org\glassfish\jaxb\jaxb-core\3.0.2\jaxb-core-3.0.2.jar;C:\Users\vkdeo\.m2\repository\org\glassfish\jaxb\txw2\3.0.2\txw2-3.0.2.jar;C:\Users\vkdeo\.m2\repository\com\sun\istack\istack-commons-runtime\4.0.1\istack-commons-runtime-4.0.1.jar;C:\Users\vkdeo\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.0\jakarta.inject-api-2.0.0.jar;C:\Users\vkdeo\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\vkdeo\.m2\repository\com\mysql\mysql-connector-j\8.0.31\mysql-connector-j-8.0.31.jar;C:\Users\vkdeo\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\vkdeo\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\vkdeo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\vkdeo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vkdeo\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\vkdeo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vkdeo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\vkdeo\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\vkdeo\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\vkdeo\.m2\repository\com\h2database\h2\2.1.214\h2-2.1.214.jar;C:\Users\vkdeo\.m2\repository\org\json\json\20220924\json-20220924.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vkdeo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="C:\Users\vkdeo\Downloads\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\vkdeo\OneDrive\Desktop\College_App\College_Student_App\CollegeStudentApp"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vkdeo\AppData\Local\Temp\surefire14147523928614409895\surefirebooter9292163954498022969.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="user.name" value="vkdeo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="localRepository" value="C:\Users\vkdeo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\vkdeo\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="C:\Users\vkdeo\OneDrive\Desktop\College_App\College_Student_App\CollegeStudentApp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\vkdeo\Downloads\sts-4.16.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/vkdeo/Downloads/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Users/vkdeo/Downloads/sts-4.16.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\bin;C:\Users\vkdeo\Downloads\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Users\vkdeo\AppData\Local\Microsoft\WindowsApps;C:\Users\vkdeo\AppData\Roaming\npm;C:\Users\vkdeo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vkdeo\Downloads\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;;C:\Users\vkdeo\Downloads\sts-4.16.1.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="basicChecks" classname="TestCases" time="6.83"/>
+  <testcase name="registerCollege" classname="TestCases" time="1.276"/>
+  <testcase name="registerCollegeException" classname="TestCases" time="0.208">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: method is not throwing exception, even when we are passing null objects while adding an college ==&gt; Unexpected exception type thrown, expected: &lt;exceptions.CollegeException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing exception, even when we are passing null objects while adding an college ==> Unexpected exception type thrown, expected: <exceptions.CollegeException> but was: <java.lang.NullPointerException>
+	at TestCases.registerCollegeException(TestCases.java:80)
+]]></failure>
+    <system-out><![CDATA[Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="getCollegeFromCollegeId" classname="TestCases" time="0.001">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: method is not finding the College by id correctly ==&gt; expected: &lt;3&gt; but was: &lt;1&gt;" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not finding the College by id correctly ==> expected: <3> but was: <1>
+	at TestCases.getCollegeFromCollegeId(TestCases.java:95)
+]]></failure>
+    <system-out><![CDATA[Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+College: 1
+College [collegeId=1, collegeName=C_V_Raman, collegeAddress=Khondagiri, students=null]
+]]></system-out>
+  </testcase>
+  <testcase name="getCollegeFromCollegeIdException" classname="TestCases" time="0.001">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: method is not throwing Exception when unknown collegeId pass ==&gt; Expected exceptions.CollegeException to be thrown, but nothing was thrown." type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing Exception when unknown collegeId pass ==> Expected exceptions.CollegeException to be thrown, but nothing was thrown.
+	at TestCases.getCollegeFromCollegeIdException(TestCases.java:116)
+</failure>
+    <system-out><![CDATA[Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+College: 1
+College [collegeId=1, collegeName=C_V_Raman, collegeAddress=Khondagiri, students=null]
+College: 1
+College [collegeId=1, collegeName=C_V_Raman, collegeAddress=Khondagiri, students=null]
+]]></system-out>
+  </testcase>
+  <testcase name="getAllCollege" classname="TestCases" time="1.005">
+    <failure message="Multiple Failures (1 failure)&#10;	java.lang.NullPointerException: Cannot invoke &quot;java.util.List.size()&quot; because &quot;colleges&quot; is null" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "colleges" is null
+	at TestCases.getAllCollege(TestCases.java:143)
+</failure>
+    <system-out><![CDATA[Hibernate: delete from Student
+Hibernate: delete from College
+Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+Hibernate: select c1_0.collegeId,c1_0.collegeAddress,c1_0.collegeName from College c1_0
+Hibernate: select s1_0.college_id,s1_0.studentRoll,s1_0.email,s1_0.mobileNumber,s1_0.status,s1_0.studentName from Student s1_0 where s1_0.college_id=?
+Hibernate: select s1_0.college_id,s1_0.studentRoll,s1_0.email,s1_0.mobileNumber,s1_0.status,s1_0.studentName from Student s1_0 where s1_0.college_id=?
+Hibernate: select s1_0.college_id,s1_0.studentRoll,s1_0.email,s1_0.mobileNumber,s1_0.status,s1_0.studentName from Student s1_0 where s1_0.college_id=?
+Hibernate: select c1_0.collegeId,c1_0.collegeAddress,c1_0.collegeName from College c1_0
+Hibernate: select s1_0.college_id,s1_0.studentRoll,s1_0.email,s1_0.mobileNumber,s1_0.status,s1_0.studentName from Student s1_0 where s1_0.college_id=?
+Hibernate: select s1_0.college_id,s1_0.studentRoll,s1_0.email,s1_0.mobileNumber,s1_0.status,s1_0.studentName from Student s1_0 where s1_0.college_id=?
+Hibernate: select s1_0.college_id,s1_0.studentRoll,s1_0.email,s1_0.mobileNumber,s1_0.status,s1_0.studentName from Student s1_0 where s1_0.college_id=?
+[College [collegeId=5, collegeName=DYP, collegeAddress=Pune, students=[]], College [collegeId=6, collegeName=MIT, collegeAddress=Mumbai, students=[]], College [collegeId=7, collegeName=SVIT, collegeAddress=Pune, students=[]]]
+]]></system-out>
+  </testcase>
+  <testcase name="getAllCollegeException" classname="TestCases" time="0.039">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: getAllCollege method is not throwing exception even non of the college is in database ==&gt; Expected exceptions.CollegeException to be thrown, but nothing was thrown." type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: getAllCollege method is not throwing exception even non of the college is in database ==> Expected exceptions.CollegeException to be thrown, but nothing was thrown.
+	at TestCases.getAllCollegeException(TestCases.java:169)
+</failure>
+    <system-out><![CDATA[Hibernate: delete from Student
+Hibernate: delete from College
+Hibernate: select c1_0.collegeId,c1_0.collegeAddress,c1_0.collegeName from College c1_0
+[]
+]]></system-out>
+  </testcase>
+  <testcase name="registerStudentToCollege" classname="TestCases" time="0.008">
+    <failure message="Multiple Failures (1 failure)&#10;	java.lang.NullPointerException: Cannot invoke &quot;Object.getClass()&quot; because &quot;obj&quot; is null" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "obj" is null
+	at TestCases.registerStudentToCollege(TestCases.java:194)
+</failure>
+    <system-out><![CDATA[Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="registerStudentToCollegeException" classname="TestCases" time="0.019">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: method is not throwing exception, even when we are passing null objects while getting an college ==&gt; Expected exceptions.CollegeException to be thrown, but nothing was thrown." type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing exception, even when we are passing null objects while getting an college ==> Expected exceptions.CollegeException to be thrown, but nothing was thrown.
+	at TestCases.registerStudentToCollegeException(TestCases.java:211)
+</failure>
+    <system-out><![CDATA[Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="getAllStudentsFromCollegeId" classname="TestCases" time="0.062">
+    <failure message="Multiple Failures (1 failure)&#10;	java.lang.IllegalArgumentException: org.hibernate.query.SemanticException: A query exception occurred [select * from College c inner join student s on s.studentRoll= c.CollegeId]" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.IllegalArgumentException: org.hibernate.query.SemanticException: A query exception occurred [select * from College c inner join student s on s.studentRoll= c.CollegeId]
+	at TestCases.getAllStudentsFromCollegeId(TestCases.java:245)
+</failure>
+    <system-out><![CDATA[Hibernate: delete from Student
+Hibernate: delete from College
+Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="getAllStudentsFromCollegeIdException" classname="TestCases" time="0.02">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: getAllStudentsFromCollegeId method is not throwing exception even non of the student register to the college ==&gt; Unexpected exception type thrown, expected: &lt;exceptions.StudentException&gt; but was: &lt;java.lang.IllegalArgumentException&gt;" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: getAllStudentsFromCollegeId method is not throwing exception even non of the student register to the college ==> Unexpected exception type thrown, expected: <exceptions.StudentException> but was: <java.lang.IllegalArgumentException>
+	at TestCases.getAllStudentsFromCollegeIdException(TestCases.java:272)
+]]></failure>
+    <system-out><![CDATA[Hibernate: delete from Student
+Hibernate: delete from College
+Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="registerStudent" classname="TestCases" time="0.002">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: registerStudent method is returning a null value of student object" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: registerStudent method is returning a null value of student object
+	at TestCases.registerStudent(TestCases.java:304)
+</failure>
+  </testcase>
+  <testcase name="registerStudentException" classname="TestCases" time="0.006">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: method is not throwing exception, even when we are passing null objects while adding an college ==&gt; Unexpected exception type thrown, expected: &lt;exceptions.CollegeException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.MultipleFailuresError"><![CDATA[org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing exception, even when we are passing null objects while adding an college ==> Unexpected exception type thrown, expected: <exceptions.CollegeException> but was: <java.lang.NullPointerException>
+	at TestCases.registerStudentException(TestCases.java:329)
+]]></failure>
+  </testcase>
+  <testcase name="getStudentFromCollegeId" classname="TestCases" time="0.019">
+    <failure message="Multiple Failures (1 failure)&#10;	java.lang.NullPointerException: Cannot invoke &quot;Object.getClass()&quot; because &quot;obj&quot; is null" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "obj" is null
+	at TestCases.getStudentFromCollegeId(TestCases.java:350)
+</failure>
+    <system-out><![CDATA[Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="getStudentFromCollegeIdException" classname="TestCases" time="0.014">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: method is not throwing Exception when unknown StudentId/roll pass ==&gt; Expected exceptions.StudentException to be thrown, but nothing was thrown." type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing Exception when unknown StudentId/roll pass ==> Expected exceptions.StudentException to be thrown, but nothing was thrown.
+	at TestCases.getStudentFromCollegeIdException(TestCases.java:371)
+</failure>
+    <system-out><![CDATA[Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="getAllActiveStudents" classname="TestCases" time="0.028">
+    <failure message="Multiple Failures (1 failure)&#10;	java.lang.NullPointerException: Cannot invoke &quot;java.util.List.get(int)&quot; because &quot;students&quot; is null" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because "students" is null
+	at TestCases.getAllActiveStudents(TestCases.java:399)
+</failure>
+    <system-out><![CDATA[Hibernate: delete from Student
+Hibernate: delete from College
+Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="getAllActiveStudentsException" classname="TestCases" time="0.017">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: getAllActiveStudents method is not throwing exception even non of the student register ==&gt; Expected exceptions.StudentException to be thrown, but nothing was thrown." type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: getAllActiveStudents method is not throwing exception even non of the student register ==> Expected exceptions.StudentException to be thrown, but nothing was thrown.
+	at TestCases.getAllActiveStudentsException(TestCases.java:429)
+</failure>
+    <system-out><![CDATA[Hibernate: delete from Student
+Hibernate: delete from College
+]]></system-out>
+  </testcase>
+  <testcase name="getCollegeFromStudentId" classname="TestCases" time="0.035">
+    <failure message="Multiple Failures (1 failure)&#10;	java.lang.NullPointerException: Cannot invoke &quot;Object.getClass()&quot; because &quot;obj&quot; is null" type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "obj" is null
+	at TestCases.getCollegeFromStudentId(TestCases.java:454)
+</failure>
+    <system-out><![CDATA[Hibernate: delete from Student
+Hibernate: delete from College
+Hibernate: insert into College (collegeAddress, collegeName) values (?, ?)
+Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+Hibernate: insert into Student (college_id, email, mobileNumber, status, studentName) values (?, ?, ?, ?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="getCollegeFromStudentIdsException" classname="TestCases" time="0.032">
+    <failure message="Multiple Failures (1 failure)&#10;	org.opentest4j.AssertionFailedError: getCollegeFromStudentIdsException method is not throwing Exception when unknown StudentId/roll pass ==&gt; Expected exceptions.StudentException to be thrown, but nothing was thrown." type="org.opentest4j.MultipleFailuresError">org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: getCollegeFromStudentIdsException method is not throwing Exception when unknown StudentId/roll pass ==> Expected exceptions.StudentException to be thrown, but nothing was thrown.
+	at TestCases.getCollegeFromStudentIdsException(TestCases.java:477)
+</failure>
+    <system-out><![CDATA[Hibernate: delete from Student
+Hibernate: delete from College
+]]></system-out>
+  </testcase>
+  <testcase name="buildScore" classname="TestCases" time="0"/>
+</testsuite>

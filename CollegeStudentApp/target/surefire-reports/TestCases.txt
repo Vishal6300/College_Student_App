@@ -1,0 +1,109 @@
+-------------------------------------------------------------------------------
+Test set: TestCases
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 9.694 s <<< FAILURE! - in TestCases
+basicChecks  Time elapsed: 6.83 s
+registerCollege  Time elapsed: 1.276 s
+registerCollegeException  Time elapsed: 0.208 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing exception, even when we are passing null objects while adding an college ==> Unexpected exception type thrown, expected: <exceptions.CollegeException> but was: <java.lang.NullPointerException>
+	at TestCases.registerCollegeException(TestCases.java:80)
+
+getCollegeFromCollegeId  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not finding the College by id correctly ==> expected: <3> but was: <1>
+	at TestCases.getCollegeFromCollegeId(TestCases.java:95)
+
+getCollegeFromCollegeIdException  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing Exception when unknown collegeId pass ==> Expected exceptions.CollegeException to be thrown, but nothing was thrown.
+	at TestCases.getCollegeFromCollegeIdException(TestCases.java:116)
+
+getAllCollege  Time elapsed: 1.005 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "colleges" is null
+	at TestCases.getAllCollege(TestCases.java:143)
+
+getAllCollegeException  Time elapsed: 0.039 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: getAllCollege method is not throwing exception even non of the college is in database ==> Expected exceptions.CollegeException to be thrown, but nothing was thrown.
+	at TestCases.getAllCollegeException(TestCases.java:169)
+
+registerStudentToCollege  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "obj" is null
+	at TestCases.registerStudentToCollege(TestCases.java:194)
+
+registerStudentToCollegeException  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing exception, even when we are passing null objects while getting an college ==> Expected exceptions.CollegeException to be thrown, but nothing was thrown.
+	at TestCases.registerStudentToCollegeException(TestCases.java:211)
+
+getAllStudentsFromCollegeId  Time elapsed: 0.062 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.IllegalArgumentException: org.hibernate.query.SemanticException: A query exception occurred [select * from College c inner join student s on s.studentRoll= c.CollegeId]
+	at TestCases.getAllStudentsFromCollegeId(TestCases.java:245)
+
+getAllStudentsFromCollegeIdException  Time elapsed: 0.02 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: getAllStudentsFromCollegeId method is not throwing exception even non of the student register to the college ==> Unexpected exception type thrown, expected: <exceptions.StudentException> but was: <java.lang.IllegalArgumentException>
+	at TestCases.getAllStudentsFromCollegeIdException(TestCases.java:272)
+
+registerStudent  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: registerStudent method is returning a null value of student object
+	at TestCases.registerStudent(TestCases.java:304)
+
+registerStudentException  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing exception, even when we are passing null objects while adding an college ==> Unexpected exception type thrown, expected: <exceptions.CollegeException> but was: <java.lang.NullPointerException>
+	at TestCases.registerStudentException(TestCases.java:329)
+
+getStudentFromCollegeId  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "obj" is null
+	at TestCases.getStudentFromCollegeId(TestCases.java:350)
+
+getStudentFromCollegeIdException  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: method is not throwing Exception when unknown StudentId/roll pass ==> Expected exceptions.StudentException to be thrown, but nothing was thrown.
+	at TestCases.getStudentFromCollegeIdException(TestCases.java:371)
+
+getAllActiveStudents  Time elapsed: 0.028 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because "students" is null
+	at TestCases.getAllActiveStudents(TestCases.java:399)
+
+getAllActiveStudentsException  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: getAllActiveStudents method is not throwing exception even non of the student register ==> Expected exceptions.StudentException to be thrown, but nothing was thrown.
+	at TestCases.getAllActiveStudentsException(TestCases.java:429)
+
+getCollegeFromStudentId  Time elapsed: 0.035 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "obj" is null
+	at TestCases.getCollegeFromStudentId(TestCases.java:454)
+
+getCollegeFromStudentIdsException  Time elapsed: 0.032 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: getCollegeFromStudentIdsException method is not throwing Exception when unknown StudentId/roll pass ==> Expected exceptions.StudentException to be thrown, but nothing was thrown.
+	at TestCases.getCollegeFromStudentIdsException(TestCases.java:477)
+
+buildScore  Time elapsed: 0 s
