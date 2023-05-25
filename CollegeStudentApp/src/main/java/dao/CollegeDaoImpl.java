@@ -55,7 +55,6 @@ public class CollegeDaoImpl implements CollegeDao {
 	@Override
 	public List<College> getAllCollege() throws CollegeException {
 		try {
-			Session session = null;
 			Query query = (Query) em.createQuery("SELECT c FROM College c");
 			List<College> results = query.getResultList();
 			System.out.println(results);
