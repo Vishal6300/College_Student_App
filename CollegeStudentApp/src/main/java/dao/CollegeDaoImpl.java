@@ -42,7 +42,7 @@ public class CollegeDaoImpl implements CollegeDao {
 
 	@Override
 	public College getCollegeFromCollegeId(int collegeId) throws CollegeException {
-		collegeId = 1;
+//		collegeId = 1;
 		try {
 			System.out.println("College: " + collegeId);
 			System.out.println(em.find(College.class, collegeId));
@@ -61,7 +61,7 @@ public class CollegeDaoImpl implements CollegeDao {
 			System.out.println(results);
 			return results;
 		} catch (Exception e) {
-			throw new CollegeException("COllege data not available", e);
+			throw new CollegeException("College data not available", e);
 		}
 
 	}
